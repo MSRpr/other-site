@@ -1,0 +1,147 @@
+
+html, body {
+  height: 100%;
+  overflow-x:hidden;  /*для горизонтального*/
+  overflow-y:hidden;  /*для горизонтального*/
+}
+
+body {
+    height: 100vh; /* 100vh - 100% от высоты viewport(окна браузера) */
+}
+
+.block {
+	border: 0px solid #ccc;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header{
+  background: #009ce4;
+}
+
+.content-sidebar{
+  background: #c4e3ff;
+}
+
+.col-md-9{
+  min-height: 100%;
+}
+
+.col-md-3{
+  height: 100%;
+  margin-top: 5%;
+
+}
+
+.col-md-9 h2{
+  color: #009ce4;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.header img{
+  display: inline-block;
+  max-width: 90px;
+}
+
+.header h1{
+  display: inline-block;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text{
+  width: 80%;
+  float: right;
+  font-size: 1.3vw;
+  margin-top: 9%;
+}
+
+.text hr{
+	color: #3294dc; /* Цвет линии для остальных браузеров */
+    background-color: #3294dc; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+}
+
+.pic img{
+	float: right;
+    width: 80%;
+}
+
+/*.nav li a{
+   background: #009ce4;
+
+}*/
+
+.col-md-3 button{
+	margin-top: 3%;
+	padding: 0% 5%;
+  background: #009ce4;
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  color: #fff;
+  margin-left: 10%; 
+  border-radius: 16px;
+}
+
+.col-md-3 button a{
+  font-size: 1.8vw;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  user-select: none;
+  outline: none;
+}
+
+.col-md-3 button:hover { background: #b74d8e; } /* при наведении курсора мышки */
+.col-md-3 button:active { background: #37547b; } /* при нажатии */
+
+
+.logo{
+	position: absolute;
+    width: 12%;
+    float: right;
+    right: 0;
+}
+
+.col-md-3 button .active{
+   background: #b74d8e;
+}
+
+
+@media only screen and (max-width : 1344px) {
+
+  .text{
+  margin-top: 1%;
+}
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+  .text{
+  margin-top: 1%;
+}
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

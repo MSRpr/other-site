@@ -122,6 +122,18 @@ img {
   font-size: 1.5vw;
 }
 
+.logo{
+    width: 10%;
+}
+
+.text{
+  width: 70%;
+}
+
+.pic img{
+    width: 70%;
+}
+
 }
 
 @media only screen and (max-width : 1200px) {

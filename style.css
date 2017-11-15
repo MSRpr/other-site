@@ -126,7 +126,7 @@ img {
   margin-top: 1%;
 }
 .col-md-3 button a{
-  font-size: 1.6vw;
+  font-size: 1.5vw;
 }
 
 .logo{
@@ -135,6 +135,7 @@ img {
 
 .text{
   width: 70%;
+  font-size: 1.1vw;
 }
 
 .pic img{
